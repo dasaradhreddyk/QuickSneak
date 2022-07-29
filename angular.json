@@ -23,9 +23,14 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+			  "./node_modules/@videogular/ngx-videogular/fonts/videogular.css",
+			   "node_modules/datatables.net-dt/css/jquery.dataTables.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
             ],
-            "scripts": []
+            "scripts": [ "node_modules/jquery/dist/jquery.js",
+            "node_modules/datatables.net/js/jquery.dataTables.js",
+            "node_modules/bootstrap/dist/js/bootstrap.js",]
           },
           "configurations": {
             "production": {
@@ -97,5 +102,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "011189b5-b055-4f84-b097-ee3a6960677a"
   }
 }
